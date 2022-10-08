@@ -24,8 +24,8 @@ switch(trafficLightSignalColor) {
 // 1. вариант с использованием цикла и выводом результатов для каждой системы разом
 let moneyTransferSystemArray = ['Юнистрим', 'РИА', 'Золотая Корона', 'Контакт'];
 
-for(let system of moneyTransferSystemArray) {
-    console.log(`Перевод денег через ${system}`);
+for(let moneyTransferSystem of moneyTransferSystemArray) {
+    console.log(`Перевод денег через ${moneyTransferSystem}`);
 }
 
 // 2. вариант с указанием каждой системы отдельно в переменной
