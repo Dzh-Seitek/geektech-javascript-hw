@@ -43,7 +43,7 @@ function findAverage() {
     let count = convertToArray(arguments).length;
     return arr.reduce((accumulator, current) => accumulator + current) / count;
 }
-console.log('Average number is: ',findAverage());
+console.log('Average number is: ', findAverage(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 
 
 function returnFilteredNumbers() {
