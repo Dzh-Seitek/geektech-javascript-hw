@@ -13,9 +13,6 @@ submitBtnNode.addEventListener('click', e => {
         } else if (loginNode.value.length === 0){
             alert('Entry cannot be empty');
             break;
-        } else {
-            alert('No matches found');
-            break;
-        }
+        } 
     }
 })
